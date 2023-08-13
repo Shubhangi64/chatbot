@@ -1,0 +1,146 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there! how can i help ?",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["Thanks","for", "helping", "me"],
+      "bot_response": "My pleasure! happy to help!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "learn", "code", "coding", "apps"],              
+      "bot_response": "Start by typing: 'How to learn coding' on Google.",
+      "required_words": ["learn", "code"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "old", "are", "you"],              
+      "bot_response": "i was made in 2023",
+      "required_words": ["old"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["What", "you", "can" ,"do"],              
+      "bot_response": "I am a general purpose chatbot. I can chat with you.",
+      "required_words": ["do"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We don't offer refunds for free education.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "joke",
+      "user_input": ["Tell","me", "a", "joke"],
+      "bot_response": "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+      "required_words": ["joke"]
+    },
+    {
+      "response_type": "joke",
+      "user_input": ["Make", "me", "laugh"],
+      "bot_response": "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+      "required_words": ["laugh"]
+    },
+    {
+      "response_type": "joke",
+      "user_input": ["one", "more"],
+      "bot_response": "I ate a clock yesterday, it was very time-consuming",
+      "required_words": ["one"]
+    },
+    {
+      "response_type": "Identity",
+      "user_input": ["what" ,"is" ,"your" ,"name"],
+      "bot_response": "my name is Bot.",
+      "required_words": ["name"]
+    },
+    {
+      "response_type": "Identity",
+      "user_input": ["who" ,"are" ,"you"],
+      "bot_response": "I am Bot. A Deep-Learning chatbot",
+      "required_words": ["who" ,"are" ,"you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["lol"],
+      "bot_response": "Glad I could make you laugh !",
+      "required_words": ["lol"]
+    },
+    {
+      "response_type": "whatsup",
+      "user_input": ["Whats up"],
+      "bot_response": "All good..What about you?",
+      "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": ["Who" ,"made" ,"you"],
+      "bot_response": "I was made by shubhangi Gupta .",
+      "required_words": ["made"]
+    },
+    {
+      "response_type": "insult",
+      "user_input": ["you", "are", "dumb"],
+      "bot_response": "Well that hurts :(",
+      "required_words": ["dumb"]
+    },
+    {
+      "response_type": "activity",
+      "user_input": ["what" ,"are" ,"you", "doing"],
+      "bot_response": "Talking to you, of course!",
+      "required_words": ["doing"]
+    },
+    {
+      "response_type": "appreciate",
+      "user_input": ["great"],
+      "bot_response": "Yeah!",
+      "required_words": ["great"]
+    },
+    {
+      "response_type": "appreciate",
+      "user_input": ["You", "are" ,"awesome"],
+      "bot_response": "Thank you!",
+      "required_words": ["awesome"]
+    },
+    {
+      "response_type": "nicetty",
+      "user_input": ["it" ,"was" ,"nice", "talking" ,"to" ,"you"],
+      "bot_response": "It was nice talking to you as well! Come back soon!",
+      "required_words": ["nice","talking"]
+    },
+    {
+      "response_type": "riddle",
+      "user_input": ["Ask", "me" ,"a", "riddle"],
+      "bot_response": "What two things can you never eat for breakfast?......................Lunch and Dinner!",
+      "required_words": ["riddle"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["Ask" ,"me", "a", "question"],
+      "bot_response": "What has a thumb and four fingers but is not actually alive?......................Your Gloves!",
+      "required_words": ["question"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    }
+  ]
